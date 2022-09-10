@@ -20,6 +20,7 @@ const Counter = () => {
 
   const show = useSelector(state => state.counter.showCounter)
 
+
   return (
     <main className={classes.counter}>
       <h1>Redux Counter</h1>
